@@ -93,8 +93,8 @@ text_menu = """# Добро пожаловать в главное меню auto
 
 
 config = {
-    'token': ''
-    'prefix': '/',
+    'token': os.getenv("bot_token"),
+    'prefix': '/'
 }
 
 ids = 0
